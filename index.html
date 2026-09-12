@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sister ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<!-- Welcome Page -->
+<div id="welcomePage">
+
+    <h1>🎁 A Surprise Awaits You!</h1>
+
+    <p>
+        Dear Ankita ❤️<br><br>
+        Your brother has prepared something special just for you.
+    </p>
+
+    <button id="openGift">
+        🎁 Open My Surprise
+    </button>
+
+</div>
+
+<!-- Birthday Page -->
+<div id="birthdayPage" style="display:none;">
+
+<div class="container">
+
+<div class="card">
+
+<div class="emoji">
+🎉🎂💖
+</div>
+
+<h1>Happy Birthday</h1>
+
+<h2>💖 Dear Sister Ankita ❤️</h2>
+
+<div class="clock-box">
+    <div id="currentDate"></div>
+    <div id="currentTime"></div>
+</div>
+
+<div class="slider">
+    <img id="slide" src="images/photo1.jpg" alt="Birthday Memories">
+</div>
+
+<p class="message">
+Happy Birthday to the most wonderful sister!
+
+May your life always be filled with happiness, love, laughter, good health and success.
+
+You deserve all the happiness in the world.
+
+Keep smiling forever.
+
+<br><br>
+
+❤️ Made with Love by Your Brother, Sourav ❤️
+</p>
+
+<button id="celebrate">
+🎉 Celebrate
+</button>
+
+<button id="musicBtn">
+🎵 Play Music
+</button>
+
+<audio id="music" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
